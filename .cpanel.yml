@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bombastik/public_html
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp *.* $DEPLOYPATH
+    
