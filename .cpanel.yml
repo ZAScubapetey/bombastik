@@ -4,5 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/bombastik/public_html
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R shop $DEPLOYPATH
     - /bin/cp *.* $DEPLOYPATH
     
