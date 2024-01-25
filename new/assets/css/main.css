@@ -48,6 +48,10 @@ html {
 }
 
 @media (max-width: 768px) {
+  .mobile-shrink{
+    min-width:1px !important;
+  }
+  
   .hidden-mobile {
     display: none;
   }
