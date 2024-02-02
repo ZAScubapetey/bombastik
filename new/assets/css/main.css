@@ -1418,6 +1418,12 @@ section {
 .projects .portfolio-content {
   position: relative;
   overflow: hidden;
+  padding: 5vh;
+}
+
+.projects h5 {
+ font-size: large;
+ color: var(--bs-1);
 }
 
 .projects .portfolio-content img {
