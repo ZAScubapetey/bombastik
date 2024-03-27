@@ -1639,6 +1639,12 @@ section {
   margin-top: 50px;
 }
 
+.icon-box-header{
+  display: flex;
+                align-items: center;
+                justify-content: center;
+}
+
 .alt-services .icon-box i {
   display: flex;
   align-items: center;
